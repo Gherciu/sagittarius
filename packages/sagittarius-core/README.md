@@ -41,25 +41,33 @@ See more utils in description below
 
 - [random](https://github.com/Gherciu/sagittarius/packages/sagittarius-random): Random number generation from range
 
-```js
-const { random } = require('sagittarius-core')
-// OR const random =  require('sagittarius-random')
+<details>
+  <summary>Example</summary>
+  <pre>
+    const { random } = require('sagittarius-core')
+    // OR const random =  require('sagittarius-random')
 
-console.log(random(12, 21))
-// a random number between 12 and 21
-```
+    console.log(random(12, 21))
+    // a random number between 12 and 21
+
+  </pre>
+</details>
 
 #### Data validation
 
 - [isEmpty](https://github.com/Gherciu/sagittarius/packages/sagittarius-is-empty): Check if provided argument is empty
 
-```js
-const { isEmpty } = require('sagittarius-core')
-// OR const isEmpty =  require('sagittarius-is-empty')
+<details>
+  <summary>Example</summary>
+  <pre>
+    const { isEmpty } = require('sagittarius-core')
+    // OR const isEmpty =  require('sagittarius-is-empty')
 
-console.log(isEmpty({})) // true
-console.log(isEmpty({ a: 1 })) // false
-```
+    console.log(isEmpty({})) // true
+    console.log(isEmpty({ a: 1 })) // false
+
+  </pre>
+</details>
 
 ## Contributing
 
