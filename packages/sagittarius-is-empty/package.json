@@ -1,7 +1,7 @@
 {
-  "name": "sagittarius-core",
+  "name": "sagittarius-is-empty",
   "description": "A set of javascript most used utils.",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "license": "MIT",
   "author": {
     "name": "Gherciu Gheorghe",
@@ -33,10 +33,6 @@
     "typescript": "^3.6.3",
     "webpack": "^4.40.2",
     "webpack-cli": "^3.3.8"
-  },
-  "dependencies": {
-    "sagittarius-is-empty": "^1.0.0",
-    "sagittarius-random": "^1.0.0"
   },
   "gitHead": "e5f694604ed9977f614ecdb25eea64de748a7705"
 }
