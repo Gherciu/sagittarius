@@ -1,0 +1,68 @@
+{
+  "name": "sagittarius-monorepo",
+  "description": "A set of javascript most used utils.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Gherciu Gheorghe",
+    "email": "gherciu553@gmail.com",
+    "url": "https://gherciu.github.io/portfolio/"
+  },
+  "keywords": [
+    "utils",
+    "helpers",
+    "sagittarius"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sagittarius"
+  },
+  "bugs": {
+    "url": "https://github.com/sagittarius/issues"
+  },
+  "scripts": {
+    "build:packages": "lerna run build",
+    "watch:packages": "lerna run watch",
+    "link:packages": "lerna bootstrap",
+    "publish:packages": "npm run link:packages && npm run build:packages && lerna publish --message=\"chore: publish changed packages\"",
+    "test:packages": "jest --coverage",
+    "watch:test:packages": "jest --watch",
+    "lint:packages": "eslint ./packages --ext .ts --max-warnings=0",
+    "fix:packages": "eslint ./packages --ext .ts --fix --max-warnings=0"
+  },
+  "lint-staged": {
+    "*.{ts}": [
+      "npm run lint:packages",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
+    "@types/jest": "^24.0.18",
+    "@typescript-eslint/eslint-plugin": "^2.2.0",
+    "@typescript-eslint/parser": "^2.2.0",
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "husky": "^3.0.5",
+    "jest": "^24.9.0",
+    "lerna": "^3.16.4",
+    "lint-staged": "^9.2.0",
+    "prettier": "^1.18.2",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.6.3"
+  }
+}
