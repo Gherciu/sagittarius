@@ -1,11 +1,14 @@
 module.exports = {
-  collectCoverageFrom: ['packages/**/*.(ts)'],
+  collectCoverageFrom: [
+    'packages/**/*.(ts)',
+    '!packages/sagittarius-core/*.(ts)',
+  ],
   coverageThreshold: {
     global: {
-      statements: 0,
-      branches: 0,
-      functions: 0,
-      lines: 0,
+      statements: 100,
+      branches: 100,
+      functions: 100,
+      lines: 100,
     },
   },
   testRegex: 'tests/.*\\.test\\.ts$',

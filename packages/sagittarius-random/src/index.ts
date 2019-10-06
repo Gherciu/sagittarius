@@ -1,5 +1,6 @@
 import { TRandom } from '../@types'
 
-const random: TRandom = (min, max) => Math.random() * (max - min) + min
+const random: TRandom = (min, max) =>
+  Math.ceil(Math.random() * (max - min) + min)
 
 export default random
