@@ -39,11 +39,12 @@ See more utils in description below
 
 #### Data generation
 
-- [random](https://github.com/Gherciu/sagittarius/packages/sagittarius-random): Random number generation from range
+- [random](https://github.com/Gherciu/sagittarius/tree/master/packages/sagittarius-random): Random number generation from range
+- [uniqueId](https://github.com/Gherciu/sagittarius/tree/master/packages/sagittarius-unique-id): Generates a unique ID. If `prefix` is given, the ID is appended to it.
 
 #### Data validation
 
-- [isEmpty](https://github.com/Gherciu/sagittarius/packages/sagittarius-is-empty): Check if provided argument is empty
+- [isEmpty](https://github.com/Gherciu/sagittarius/tree/master/packages/sagittarius-is-empty): Check if provided argument is empty
 
 ## Contributing
 
