@@ -1,7 +1,7 @@
 module.exports = {
   collectCoverageFrom: [
     'packages/**/*.(ts)',
-    '!packages/sagittarius-core/*.(ts)',
+    '!packages/sagittarius-core/**/*.(ts)',
   ],
   coverageThreshold: {
     global: {
