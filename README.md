@@ -40,6 +40,7 @@ See more utils in description below
 #### Data generation
 
 - [random](https://github.com/Gherciu/sagittarius/packages/sagittarius-random): Random number generation from range
+- [uniqueId](https://github.com/Gherciu/sagittarius/packages/sagittarius-unique-id): Generates a unique ID. If `prefix` is given, the ID is appended to it.
 
 #### Data validation
 

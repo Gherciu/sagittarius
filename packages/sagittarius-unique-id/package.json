@@ -1,0 +1,38 @@
+{
+  "name": "sagittarius-unique-id",
+  "description": "A set of javascript most used utils.",
+  "version": "1.0.2",
+  "license": "MIT",
+  "author": {
+    "name": "Gherciu Gheorghe",
+    "email": "gherciu553@gmail.com",
+    "url": "https://gherciu.github.io/portfolio/"
+  },
+  "keywords": [
+    "utils",
+    "helpers",
+    "sagittarius"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sagittarius"
+  },
+  "bugs": {
+    "url": "https://github.com/sagittarius/issues"
+  },
+  "main": "./build/index.js",
+  "types": "./@types",
+  "scripts": {
+    "build": "rimraf ./build && cross-env NODE_ENV=production webpack",
+    "watch": "cross-env NODE_ENV=development webpack -w"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.1",
+    "rimraf": "^2.6.3",
+    "ts-loader": "^6.1.0",
+    "typescript": "^3.6.3",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.8"
+  },
+  "gitHead": "e5f694604ed9977f614ecdb25eea64de748a7705"
+}
