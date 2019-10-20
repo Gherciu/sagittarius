@@ -6,6 +6,7 @@
 </div>
 
 ![GitHub](https://img.shields.io/github/license/Gherciu/sagittarius)
+![Multipack](https://img.shields.io/badge/Generated%20from-Gherciu%2Fmultipack-green)
 
 ## Getting started.
 
