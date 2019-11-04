@@ -5,8 +5,8 @@
   <p>Random number generation from range. Part of <a href="https://github.com/Gherciu/sagittarius">sagittarius</a> a set of javascript most used utils.</p>
 </div>
 
-![GitHub](https://img.shields.io/github/license/Gherciu/sagittarius)
-![Multipack](https://img.shields.io/badge/Generated%20from-Gherciu%2Fmultipack-green)
+[![GitHub](https://img.shields.io/github/license/Gherciu/sagittarius)](https://github.com/Gherciu/sagittarius/blob/master/LICENSE)
+[![Multipack](https://img.shields.io/badge/Generated%20from-Gherciu%2Fmultipack-green)](https://github.com/Gherciu/multipack)
 
 ## Getting started.
 
