@@ -15,10 +15,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/sagittarius"
+    "url": "https://github.com/Gherciu/sagittarius"
   },
   "bugs": {
-    "url": "https://github.com/sagittarius/issues"
+    "url": "https://github.com/Gherciu/sagittarius/issues"
   },
   "main": "./build/index.js",
   "types": "./@types",
