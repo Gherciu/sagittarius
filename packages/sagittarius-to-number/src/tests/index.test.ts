@@ -10,5 +10,7 @@ describe('toNumber', () => {
     expect(toNumber(false)).toEqual(0)
     expect(toNumber(true)).toEqual(0)
     expect(toNumber(0)).toEqual(0)
+    expect(toNumber({})).toEqual(0)
+    expect(toNumber([])).toEqual(0)
   })
 })
