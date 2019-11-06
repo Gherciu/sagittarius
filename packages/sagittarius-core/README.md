@@ -47,6 +47,10 @@ See more utils in description below
 
 - [isEmpty](https://github.com/Gherciu/sagittarius/tree/master/packages/sagittarius-is-empty): Check if provided argument is empty
 
+#### Data transformation
+
+- [toNumber](https://github.com/Gherciu/sagittarius/tree/master/packages/sagittarius-to-number): Transform provided argument to number
+
 ## Contributing
 
 1. Fork it!
