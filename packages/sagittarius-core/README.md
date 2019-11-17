@@ -51,6 +51,10 @@ See more utils in description below
 
 - [toNumber](https://github.com/Gherciu/sagittarius/tree/master/packages/sagittarius-to-number): Transform provided argument to number
 
+#### Data manipulation
+
+- [debounce](https://github.com/Gherciu/sagittarius/tree/master/packages/sagittarius-debounce): Creates a debounced function that delays invoking `func` until after `wait` milliseconds have elapsed since the last time the debounced function was invoked.
+
 ## Contributing
 
 1. Fork it!
