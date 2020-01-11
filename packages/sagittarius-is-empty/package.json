@@ -11,7 +11,8 @@
   "keywords": [
     "utils",
     "helpers",
-    "sagittarius"
+    "sagittarius",
+    "isEmpty"
   ],
   "repository": {
     "type": "git",
