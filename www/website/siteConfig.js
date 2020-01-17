@@ -19,7 +19,7 @@ const users = [
   },
 ];
 
-const repoName = 'multipack'
+const repoName = 'sagittarius'
 const siteConfig = {
   title: repoName.charAt(0).toUpperCase() + repoName.slice(1), // Title for your website.
   tagline: 'A monorepo template repository',
