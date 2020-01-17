@@ -1,8 +1,8 @@
 const users = [
   {
-    caption: 'sagittarius',
-    image: 'https://raw.githubusercontent.com/Gherciu/sagittarius/master/logo.png',
-    infoLink: 'https://github.com/Gherciu/sagittarius',
+    caption: 'graphiql-storm',
+    image: 'https://raw.githubusercontent.com/Gherciu/graphiql-storm/master/logo.png',
+    infoLink: 'https://github.com/Gherciu/graphiql-storm',
     pinned: true,
   },
   {
@@ -22,7 +22,7 @@ const users = [
 const repoName = 'sagittarius'
 const siteConfig = {
   title: repoName.charAt(0).toUpperCase() + repoName.slice(1), // Title for your website.
-  tagline: 'A monorepo template repository',
+  tagline: '🎯 A set of javascript most used utils',
   url: 'https://gherciu.github.io', // Your website URL
   baseUrl: `/${repoName}/`, // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -47,16 +47,16 @@ const siteConfig = {
   // package features
   features: [
     {
-      content: 'ESLint and Prettier to enforce code style.',
-      title: 'Preconfigured code linters',
+      content: 'Each util is well documented',
+      title: 'Well documented',
     },
     {
-      content: 'Preconfigured Jest and react-testing-library to test (ts|tsx) files and colect coverage from all packages',
-      title: 'Test development driven',
+      content: 'Each util is covered with 100% tests',
+      title: 'Well tested',
     },
     {
-      content: 'Preconfigured Github workflow actions to run tests after each pushed commit',
-      title: 'Continuous integration',
+      content: 'Each util has an easy to use and undersand API',
+      title: 'Easy to use',
     },
   ],
 
