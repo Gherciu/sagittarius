@@ -4,7 +4,32 @@ title: Getting Started
 sidebar_label: Getting Started
 ---
 
-- Clone the project: `git clone --depth=1 https://github.com/Gherciu/multipack.git <YOUR_PROJECT_NAME>`
-- Setup project: `npm install`
+Sagittarius is a set of javascript most used utils. It provides a core package named `sagittarius-core` that contain all utils. It has also the posibility to install each package separately to use only needed packages.
 
-Running `npm run link:packages` will installing all packages dependencies and linking any cross-dependencies. This command is crucial, as it allows you to use your package names in `require()` as if the packages were already existing and available in your `node_modules` folder.
+- Install: `npm i sagittarius-core`
+
+```js
+const { random, isEmpty } = require('sagittarius-core')
+// Or install needed utils separately
+// const random =  require('sagittarius-random')
+
+// check if argument is empty
+console.log(isEmpty({})) // true
+// get a random nr
+console.log(random(12, 21))
+```
+
+Or use via cdn:
+
+```html
+<!--index.html-->
+<script src="https://cdn.jsdelivr.net/npm/sagittarius-core@latest/build/index.js"></script>
+<script>
+  // check if argument is empty
+  console.log(sagittarius.isEmpty({ a: 21 })) // false
+  // get a random nr
+  console.log(sagittarius.random(12, 21))
+</script>
+```
+
+See more utils in [API Reference](doc-api-reference.md)

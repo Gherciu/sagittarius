@@ -1,6 +1,14 @@
 {
   "docs": {
     "Introduction": ["doc-getting-started"],
-    "API Reference": ["doc-api-reference", "doc-cli-commands"]
+    "API Reference": [
+      "doc-api-reference",
+      "doc-cli-commands",
+      "doc-sagittarius-random",
+      "doc-sagittarius-unique-id",
+      "doc-sagittarius-is-empty",
+      "doc-sagittarius-to-number",
+      "doc-sagittarius-debounce"
+    ]
   }
 }
