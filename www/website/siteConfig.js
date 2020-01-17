@@ -1,45 +1,36 @@
-// See https://docusaurus.io/docs/site-config for all the possible
-// site configuration options.
-
-// List of projects/orgs using your project for the users page.
 const users = [
   {
     caption: 'sagittarius',
-    // You will need to prepend the image path with your baseUrl
-    // if it is not '/', like: '/test-site/img/image.jpg'.
-    image: '/multipack/img/users/sagittarius.png',
+    image: 'https://raw.githubusercontent.com/Gherciu/sagittarius/master/logo.png',
     infoLink: 'https://github.com/Gherciu/sagittarius',
     pinned: true,
   },
   {
     caption: 'redux-soldier',
-    // You will need to prepend the image path with your baseUrl
-    // if it is not '/', like: '/test-site/img/image.jpg'.
-    image: '/multipack/img/users/redux-soldier.png',
+    image: 'https://raw.githubusercontent.com/Gherciu/redux-soldier/master/logo.png',
     infoLink: 'https://github.com/Gherciu/redux-soldier',
     pinned: true,
   },
   {
     caption: 'react-grapnel',
-    // You will need to prepend the image path with your baseUrl
-    // if it is not '/', like: '/test-site/img/image.jpg'.
-    image: '/multipack/img/users/react-grapnel.png',
+    image: 'https://raw.githubusercontent.com/Gherciu/react-grapnel/master/logo.png',
     infoLink: 'https://github.com/Gherciu/react-grapnel',
     pinned: true,
   },
 ];
 
+const repoName = 'multipack'
 const siteConfig = {
-  title: 'Multipack', // Title for your website.
+  title: repoName.charAt(0).toUpperCase() + repoName.slice(1), // Title for your website.
   tagline: 'A monorepo template repository',
   url: 'https://gherciu.github.io', // Your website URL
-  baseUrl: '/multipack/', // Base URL for your project */
+  baseUrl: `/${repoName}/`, // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'multipack',
+  projectName: repoName,
   organizationName: 'Gherciu',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
@@ -50,7 +41,7 @@ const siteConfig = {
     {doc: 'doc-getting-started', label: 'Getting Started'},
     {doc: 'doc-api-reference', label: 'API'},
     {blog: true, label: 'Blog'},
-    {href: 'https://github.com/Gherciu/multipack', label: 'GitHub'},
+    {href: `https://github.com/Gherciu/${repoName}`, label: 'GitHub'},
   ],
 
   // package features
@@ -83,6 +74,9 @@ const siteConfig = {
     secondaryColor: '#282C34',
   },
 
+  // Add or not scroll to top button
+  scrollToTop: true,
+
   /* Custom fonts for website */
   /*
   fonts: {
@@ -113,10 +107,6 @@ const siteConfig = {
   // No .html extensions for paths.
   cleanUrl: true,
 
-  // Open Graph and Twitter card images.
-  ogImage: '/multipack/img/undraw_online.svg',
-  twitterImage: '/multipack/img/undraw_tweetstorm.svg',
-
   // For sites with a sizable amount of content, set collapsible to true.
   // Expand/collapse the links and subcategories under categories.
   // docsSideNavCollapsible: true,
@@ -127,9 +117,12 @@ const siteConfig = {
   // Show documentation's last update time.
   // enableUpdateTime: true,
 
+  // edit docs url
+  editUrl: `https://github.com/Gherciu/${repoName}/edit/master/www/docs/`,
+
   // You may provide arbitrary config keys to be used as needed by your
-  // template. For example, if you need your repo's URL...
-    repoUrl: 'https://github.com/Gherciu/multipack',
+  // template. For example, if you need your repo`s URL...
+    repoUrl: `https://github.com/Gherciu/${repoName}`,
 
   // repo author info
   author: {

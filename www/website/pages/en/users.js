@@ -11,7 +11,7 @@ class Users extends React.Component {
       return null;
     }
 
-    const editUrl = `${siteConfig.repoUrl}/edit/master/website/siteConfig.js`;
+    const editUrl = `${siteConfig.repoUrl}/edit/master/www/website/siteConfig.js`;
     const showcase = siteConfig.users.map(user => (
       <a href={user.infoLink} key={user.infoLink} target="_blank">
         <img src={user.image} alt={user.caption} title={user.caption} />
@@ -21,7 +21,7 @@ class Users extends React.Component {
 
     return (
       <div className="mainContainer">
-        <Container padding={['bottom', 'top']}>
+        <Container padding={['bottom']}>
           <div className="showcaseSection">
             <div className="prose">
               <h1>Who is Using This?</h1>
@@ -29,7 +29,7 @@ class Users extends React.Component {
             </div>
             <div className="logos">{showcase}</div>
             <p>Are you using this project?</p>
-            <a href={editUrl} className="button">
+            <a href={editUrl} className="button" target="_blank">
               Add your company
             </a>
           </div>
