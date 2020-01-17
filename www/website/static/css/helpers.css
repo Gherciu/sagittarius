@@ -1,0 +1,7 @@
+/*
+/ This file is predestinated for css helpers aka: tailwind helpers
+*/
+
+.bg-light {
+  background: #f7f7f7;
+}
