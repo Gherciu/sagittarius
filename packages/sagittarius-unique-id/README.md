@@ -3,6 +3,11 @@
     src="https://raw.githubusercontent.com/Gherciu/sagittarius/master/logo.png">
   <h1>sagittarius-unique-id</h1>
   <p>Generates a unique ID. If `prefix` is given, the ID is appended to it. Part of <a href="https://github.com/Gherciu/sagittarius">sagittarius</a> a set of javascript most used utils.</p>
+  <p>
+    <a href="https://gherciu.github.io/sagittarius/docs/doc-getting-started">Getting Started</a>
+    | <a href="https://gherciu.github.io/sagittarius/docs/doc-api-reference">API</a>
+    | <a href="https://gherciu.github.io/sagittarius/blog/">Blog</a>
+  </p>
 </div>
 
 [![GitHub](https://img.shields.io/github/license/Gherciu/sagittarius)](https://github.com/Gherciu/sagittarius/blob/master/LICENSE)
