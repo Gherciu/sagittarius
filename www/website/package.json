@@ -3,7 +3,7 @@
     "examples": "docusaurus-examples",
     "start": "docusaurus-start",
     "build": "docusaurus-build",
-    "publish-gh-pages": "cross-env GIT_USER=Gherciu CURRENT_BRANCH=master docusaurus-publish",
+    "publish-gh-pages": "cross-env GIT_USER=gherciu CURRENT_BRANCH=master docusaurus-publish",
     "write-translations": "docusaurus-write-translations",
     "version": "docusaurus-version",
     "rename-version": "docusaurus-rename-version"
