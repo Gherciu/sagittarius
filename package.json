@@ -1,12 +1,12 @@
 {
-  "name": "sagittarius-monorepo",
+  "name": "sagittarius",
   "description": "A set of javascript most used utils.",
   "version": "1.0.0",
   "license": "MIT",
   "author": {
     "name": "Gherciu Gheorghe",
     "email": "gherciu553@gmail.com",
-    "url": "https://gherciu.github.io/portfolio/"
+    "url": "https://gherciu.github.io/"
   },
   "keywords": [
     "utils",
