@@ -1,15 +1,15 @@
 const features = [
   {
-    title: "Preconfigured Code Linters",
-    description:"ESLint and Prettier to enforce code style.",
+    title: "Well Documented",
+    description:"Each util is well documented.",
   },
   {
-    title: "Continuous Integration",
-    description:"Preconfigured Github workflow actions to run tests after each pushed commit.",
+    title: "Well Tested",
+    description:"Each util is covered with 100% tests.",
   },
   {
-    title: "Test Development Driven",
-    description:"Preconfigured Jest and react-testing-library to test (ts|tsx) files and colect coverage from all packages.",
+    title: "Easy to Use",
+    description:"Each util has an easy to use and undersand API.",
   },
 ];
 

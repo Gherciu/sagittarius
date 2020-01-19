@@ -1,8 +1,8 @@
 const users = [
   {
-    title: 'sagittarius',
-    imageUrl: 'https://raw.githubusercontent.com/Gherciu/sagittarius/master/logo.png',
-    url: 'https://github.com/Gherciu/sagittarius',
+    title: 'graphiql-storm',
+    imageUrl: 'https://raw.githubusercontent.com/Gherciu/graphiql-storm/master/logo.png',
+    url: 'https://github.com/Gherciu/graphiql-storm',
     pinned: true,
   },
   {

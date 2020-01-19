@@ -1,0 +1,17 @@
+{
+  "permalink": "/sagittarius/blog/welcome",
+  "source": "@site/blog\\2020-01-15-release-1.0.0.md",
+  "description": "Version 1.0.0 has ben released. What's new in 1.0.0 version...",
+  "date": "2020-01-15T00:00:00.000Z",
+  "tags": [
+    {
+      "label": "v1.0.0",
+      "permalink": "/sagittarius/blog/tags/v-1-0-0"
+    },
+    {
+      "label": "hello",
+      "permalink": "/sagittarius/blog/tags/hello"
+    }
+  ],
+  "title": "Release 1.0.0 🥳"
+}

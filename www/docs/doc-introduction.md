@@ -31,5 +31,3 @@ Or use via cdn:
   console.log(sagittarius.random(12, 21))
 </script>
 ```
-
-See more utils in [API Reference](doc-api-reference.md)

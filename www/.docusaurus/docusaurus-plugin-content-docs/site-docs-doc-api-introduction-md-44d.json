@@ -1,0 +1,18 @@
+{
+  "id": "doc-api-introduction",
+  "title": "API Introduction",
+  "description": "#### Data generation",
+  "source": "@site/docs\\doc-api-introduction.md",
+  "permalink": "/sagittarius/docs/doc-api-introduction",
+  "editUrl": "https://github.com/Gherciu/sagittarius/edit/master/www/docs/doc-api-introduction.md",
+  "sidebar_label": "API Introduction",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/sagittarius/docs/doc-introduction"
+  },
+  "next": {
+    "title": "random",
+    "permalink": "/sagittarius/docs/doc-api-sagittarius-random"
+  }
+}

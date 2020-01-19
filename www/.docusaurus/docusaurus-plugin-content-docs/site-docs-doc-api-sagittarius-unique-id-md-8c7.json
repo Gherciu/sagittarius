@@ -1,0 +1,14 @@
+{
+  "id": "doc-api-sagittarius-unique-id",
+  "title": "uniqueId",
+  "description": "Generates a unique ID.",
+  "source": "@site/docs\\doc-api-sagittarius-unique-id.md",
+  "permalink": "/sagittarius/docs/doc-api-sagittarius-unique-id",
+  "editUrl": "https://github.com/Gherciu/sagittarius/edit/master/www/docs/doc-api-sagittarius-unique-id.md",
+  "sidebar_label": "uniqueId",
+  "sidebar": "docs",
+  "previous": {
+    "title": "toNumber",
+    "permalink": "/sagittarius/docs/doc-api-sagittarius-to-number"
+  }
+}

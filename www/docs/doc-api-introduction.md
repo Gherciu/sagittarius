@@ -1,5 +1,5 @@
 ---
-id: doc-api-api-introduction
+id: doc-api-introduction
 title: API Introduction
 sidebar_label: API Introduction
 ---
