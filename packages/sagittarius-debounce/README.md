@@ -4,8 +4,8 @@
   <h1>sagittarius-debounce</h1>
   <p>Creates a debounced function that delays invoking `func` until after `wait` milliseconds have elapsed since the last time the debounced function was invoked. Part of <a href="https://github.com/Gherciu/sagittarius">sagittarius</a> a set of javascript most used utils.</p>
   <p>
-    <a href="https://gherciu.github.io/sagittarius/docs/doc-getting-started">Getting Started</a>
-    | <a href="https://gherciu.github.io/sagittarius/docs/doc-api-reference">API</a>
+    <a href="https://gherciu.github.io/sagittarius/docs/doc-introduction">Getting Started</a>
+    | <a href="https://gherciu.github.io/sagittarius/docs/doc-api-introduction">API</a>
     | <a href="https://gherciu.github.io/sagittarius/blog/">Blog</a>
   </p>
 </div>

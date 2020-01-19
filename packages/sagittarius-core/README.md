@@ -3,9 +3,9 @@
     src="https://raw.githubusercontent.com/Gherciu/sagittarius/master/logo.png">
   <h1>sagittarius</h1>
   <p>A set of javascript most used utils.</p>
-    <p>
-    <a href="https://gherciu.github.io/sagittarius/docs/doc-getting-started">Getting Started</a>
-    | <a href="https://gherciu.github.io/sagittarius/docs/doc-api-reference">API</a>
+  <p>
+    <a href="https://gherciu.github.io/sagittarius/docs/doc-introduction">Getting Started</a>
+    | <a href="https://gherciu.github.io/sagittarius/docs/doc-api-introduction">API</a>
     | <a href="https://gherciu.github.io/sagittarius/blog/">Blog</a>
   </p>
 </div>
@@ -45,20 +45,20 @@ See more utils in description below
 
 #### Data generation
 
-- [random](https://gherciu.github.io/sagittarius/docs/doc-sagittarius-random): Random number generation from range
-- [uniqueId](https://gherciu.github.io/sagittarius/docs/doc-sagittarius-unique-id): Generates a unique ID. If `prefix` is given, the ID is appended to it.
+- [random](https://gherciu.github.io/sagittarius/docs/doc-api-sagittarius-random): Random number generation from range
+- [uniqueId](https://gherciu.github.io/sagittarius/docs/doc-api-sagittarius-unique-id): Generates a unique ID. If `prefix` is given, the ID is appended to it.
 
 #### Data validation
 
-- [isEmpty](https://gherciu.github.io/sagittarius/docs/doc-sagittarius-is-empty): Check if provided argument is empty
+- [isEmpty](https://gherciu.github.io/sagittarius/docs/doc-api-sagittarius-is-empty): Check if provided argument is empty
 
 #### Data transformation
 
-- [toNumber](https://gherciu.github.io/sagittarius/docs/doc-sagittarius-to-number): Transform provided argument to number
+- [toNumber](https://gherciu.github.io/sagittarius/docs/doc-api-sagittarius-to-number): Transform provided argument to number
 
 #### Data manipulation
 
-- [debounce](https://gherciu.github.io/sagittarius/docs/doc-sagittarius-debounce): Creates a debounced function that delays invoking `func` until after `wait` milliseconds have elapsed since the last time the debounced function was invoked.
+- [debounce](https://gherciu.github.io/sagittarius/docs/doc-api-sagittarius-debounce): Creates a debounced function that delays invoking `func` until after `wait` milliseconds have elapsed since the last time the debounced function was invoked.
 
 ## Contributing
 
