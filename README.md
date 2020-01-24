@@ -4,7 +4,8 @@
   <h1>sagittarius</h1>
   <p>A set of javascript most used utils.</p>
   <p>
-    <a href="https://gherciu.github.io/sagittarius/docs/doc-introduction">Getting Started</a>
+    <a href="https://gherciu.github.io/sagittarius/">Site</a>
+    | <a href="https://gherciu.github.io/sagittarius/docs/doc-introduction">Getting Started</a>
     | <a href="https://gherciu.github.io/sagittarius/docs/doc-api-introduction">API</a>
     | <a href="https://gherciu.github.io/sagittarius/blog/">Blog</a>
   </p>
