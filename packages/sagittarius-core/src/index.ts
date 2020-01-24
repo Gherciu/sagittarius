@@ -3,6 +3,7 @@ import isEmpty from 'sagittarius-is-empty'
 import uniqueId from 'sagittarius-unique-id'
 import toNumber from 'sagittarius-to-number'
 import debounce from 'sagittarius-debounce'
+import uniq from 'sagittarius-uniq'
 import { Saggitarius } from '../@types'
 
 const sagittarius: Saggitarius = {
@@ -11,7 +12,8 @@ const sagittarius: Saggitarius = {
   uniqueId,
   toNumber,
   debounce,
+  uniq,
 }
 
-export { random, isEmpty, uniqueId, toNumber, debounce }
+export { random, isEmpty, uniqueId, toNumber, debounce, uniq }
 export default sagittarius

@@ -1,7 +1,7 @@
 {
-  "name": "sagittarius-core",
-  "description": "A set of javascript most used utils.",
-  "version": "1.1.10",
+  "name": "sagittarius-uniq",
+  "description": "Filter and return uniq values from an array.",
+  "version": "1.0.0",
   "license": "MIT",
   "author": {
     "name": "Gherciu Gheorghe",
@@ -11,7 +11,8 @@
   "keywords": [
     "utils",
     "helpers",
-    "sagittarius"
+    "sagittarius",
+    "uniq"
   ],
   "homepage": "https://gherciu.github.io/sagittarius/",
   "repository": {
@@ -34,14 +35,6 @@
     "typescript": "^3.6.3",
     "webpack": "^4.40.2",
     "webpack-cli": "^3.3.8"
-  },
-  "dependencies": {
-    "sagittarius-debounce": "^1.0.5",
-    "sagittarius-is-empty": "^1.1.5",
-    "sagittarius-random": "^1.1.5",
-    "sagittarius-to-number": "^1.0.6",
-    "sagittarius-unique-id": "^1.1.5",
-    "sagittarius-uniq": "^1.0.0"
   },
   "gitHead": "e5f694604ed9977f614ecdb25eea64de748a7705"
 }

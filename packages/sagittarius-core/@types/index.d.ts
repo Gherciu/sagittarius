@@ -1,3 +1,4 @@
+import { TUniq } from 'sagittarius-uniq'
 import { TUniqueId } from 'sagittarius-unique-id'
 import { TRandom } from 'sagittarius-random'
 import { TIsEmpty } from 'sagittarius-is-empty'
@@ -10,6 +11,7 @@ export interface Saggitarius {
   uniqueId: TUniqueId
   toNumber: TToNumber
   debounce: TDebounce
+  uniq: TUniq
 }
 
 export const random: TRandom
@@ -17,6 +19,7 @@ export const isEmpty: TIsEmpty
 export const uniqueId: TUniqueId
 export const toNumber: TToNumber
 export const debounce: TDebounce
+export const uniq: TUniq
 
 declare const sagittarius: Saggitarius
 

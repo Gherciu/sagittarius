@@ -1,8 +1,8 @@
 <div align="center">
   <img width="200" height="200"
     src="https://raw.githubusercontent.com/Gherciu/sagittarius/master/logo.png">
-  <h1>sagittarius-to-number</h1>
-  <p>Transform provided argument to number. Part of <a href="https://github.com/Gherciu/sagittarius">sagittarius</a> a set of javascript most used utils.</p>
+  <h1>sagittarius-uniq</h1>
+  <p>Filter and return uniq values from an array. Part of <a href="https://github.com/Gherciu/sagittarius">sagittarius</a> a set of javascript most used utils.</p>
   <p>
     <a href="https://gherciu.github.io/sagittarius/">Site</a>
     | <a href="https://gherciu.github.io/sagittarius/docs/doc-introduction">Getting Started</a>
@@ -16,26 +16,22 @@
 
 ## Getting started.
 
-- It can be used directly from `sagittarius-core` package or installed separately via npm runing: `npm i sagittarius-to-number`
+- It can be used directly from `sagittarius-core` package or installed separately via npm runing: `npm i sagittarius-uniq`
 
 ```js
-const toNumber = require('sagittarius-to-number')
-console.log(toNumber('21')) // 21
-console.log(toNumber(null)) // 0
-console.log(toNumber('0.21')) // 0.21
-console.log(toNumber('21px')) // 21
+const uniq = require('sagittarius-uniq')
+console.log(uniq([21, 'twenty one', 21])) // [21, 'twenty one']
+console.log(uniq([{ a: 21 }, { a: 'twenty one' }, { a: 21 }])) // [{a: 21}, {a: 'twenty one'}]
 ```
 
 Or use via cdn:
 
 ```html
 <!--index.html-->
-<script src="https://cdn.jsdelivr.net/npm/sagittarius-to-number@latest/build/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sagittarius-uniq@latest/build/index.js"></script>
 <script>
-  console.log(sagittariusToNumber('21')) // from string to number 21
-  console.log(sagittariusToNumber(null)) // 0
-  console.log(sagittariusToNumber('0.21')) // 0.21
-  console.log(sagittariusToNumber('21px')) // 21
+  console.log(sagittariusUniq([21, 'twenty one', 21])) // [21, 'twenty one']
+  console.log(sagittariusUniq([{ a: 21 }, { a: 'twenty one' }, { a: 21 }])) // [{a: 21}, {a: 'twenty one'}]
 </script>
 ```
 

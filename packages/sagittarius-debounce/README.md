@@ -16,7 +16,7 @@
 
 ## Getting started.
 
-- Install: `npm i sagittarius-debounce`
+- It can be used directly from `sagittarius-core` package or installed separately via npm runing: `npm i sagittarius-debounce`
 
 ```js
 const debounce = require('sagittarius-debounce')

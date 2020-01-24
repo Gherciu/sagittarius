@@ -16,7 +16,7 @@
 
 ## Getting started.
 
-- Install: `npm i sagittarius-unique-id`
+- It can be used directly from `sagittarius-core` package or installed separately via npm runing: `npm i sagittarius-unique-id`
 
 ```js
 const uniqueId = require('sagittarius-unique-id')

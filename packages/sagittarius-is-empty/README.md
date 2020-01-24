@@ -16,7 +16,7 @@
 
 ## Getting started.
 
-- Install: `npm i sagittarius-is-empty`
+- It can be used directly from `sagittarius-core` package or installed separately via npm runing: `npm i sagittarius-is-empty`
 
 ```js
 const isEmpty = require('sagittarius-is-empty')

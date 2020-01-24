@@ -16,7 +16,7 @@
 
 ## Getting started.
 
-- Install: `npm i sagittarius-random`
+- It can be used directly from `sagittarius-core` package or installed separately via npm runing: `npm i sagittarius-random`
 
 ```js
 const random = require('sagittarius-random')
