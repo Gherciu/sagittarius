@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{127:function(a){a.exports=JSON.parse('{"allTagsPath":"/sagittarius/blog/tags","slug":"hello","name":"hello","count":1,"permalink":"/sagittarius/blog/tags/hello"}')}}]);
