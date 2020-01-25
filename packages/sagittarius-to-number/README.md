@@ -4,7 +4,8 @@
   <h1>sagittarius-to-number</h1>
   <p>Transform provided argument to number. Part of <a href="https://github.com/Gherciu/sagittarius">sagittarius</a> a set of javascript most used utils.</p>
   <p>
-    <a href="https://gherciu.github.io/sagittarius/docs/doc-introduction">Getting Started</a>
+    <a href="https://gherciu.github.io/sagittarius/">Site</a>
+    | <a href="https://gherciu.github.io/sagittarius/docs/doc-introduction">Getting Started</a>
     | <a href="https://gherciu.github.io/sagittarius/docs/doc-api-introduction">API</a>
     | <a href="https://gherciu.github.io/sagittarius/blog/">Blog</a>
   </p>
@@ -15,7 +16,7 @@
 
 ## Getting started.
 
-- Install: `npm i sagittarius-to-number`
+- It can be used directly from `sagittarius-core` package or installed separately via npm runing: `npm i sagittarius-to-number`
 
 ```js
 const toNumber = require('sagittarius-to-number')

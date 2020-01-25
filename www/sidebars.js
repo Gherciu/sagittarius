@@ -7,7 +7,8 @@ module.exports = {
       'doc-api-sagittarius-debounce',
       'doc-api-sagittarius-is-empty',
       'doc-api-sagittarius-to-number',
-      'doc-api-sagittarius-unique-id'
+      'doc-api-sagittarius-unique-id',
+      'doc-api-sagittarius-uniq'
     ],
   },
 };

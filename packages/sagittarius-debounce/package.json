@@ -1,7 +1,7 @@
 {
   "name": "sagittarius-debounce",
   "description": "A set of javascript most used utils.",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "license": "MIT",
   "author": {
     "name": "Gherciu Gheorghe",

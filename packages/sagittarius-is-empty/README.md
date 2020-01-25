@@ -4,7 +4,8 @@
   <h1>sagittarius-is-empty</h1>
   <p>Check if provided argument is empty. Part of <a href="https://github.com/Gherciu/sagittarius">sagittarius</a> a set of javascript most used utils.</p>
   <p>
-    <a href="https://gherciu.github.io/sagittarius/docs/doc-introduction">Getting Started</a>
+    <a href="https://gherciu.github.io/sagittarius/">Site</a>
+    | <a href="https://gherciu.github.io/sagittarius/docs/doc-introduction">Getting Started</a>
     | <a href="https://gherciu.github.io/sagittarius/docs/doc-api-introduction">API</a>
     | <a href="https://gherciu.github.io/sagittarius/blog/">Blog</a>
   </p>
@@ -15,7 +16,7 @@
 
 ## Getting started.
 
-- Install: `npm i sagittarius-is-empty`
+- It can be used directly from `sagittarius-core` package or installed separately via npm runing: `npm i sagittarius-is-empty`
 
 ```js
 const isEmpty = require('sagittarius-is-empty')
