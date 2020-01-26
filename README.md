@@ -56,6 +56,7 @@ See more utils in description below
 #### Data transformation
 
 - [toNumber](https://gherciu.github.io/sagittarius/docs/doc-api-sagittarius-to-number): Transform provided argument to number
+- [toPath](https://gherciu.github.io/sagittarius/docs/doc-api-sagittarius-to-path): Transform provided argument to a property path array
 
 #### Data sorting
 

@@ -1,7 +1,7 @@
 {
-  "name": "sagittarius-uniq",
-  "description": "Filter and return uniq values from an array.",
-  "version": "1.0.2",
+  "name": "sagittarius-to-path",
+  "description": "Transform provided argument to a property path array.",
+  "version": "1.0.0",
   "license": "MIT",
   "author": {
     "name": "Gherciu Gheorghe",
@@ -12,7 +12,7 @@
     "utils",
     "helpers",
     "sagittarius",
-    "uniq"
+    "to-path"
   ],
   "homepage": "https://gherciu.github.io/sagittarius/",
   "repository": {
@@ -27,6 +27,9 @@
   "scripts": {
     "build": "rimraf ./build && cross-env NODE_ENV=production webpack",
     "watch": "cross-env NODE_ENV=development webpack -w"
+  },
+  "dependencies": {
+    "sagittarius-to-number": "^1.0.7"
   },
   "devDependencies": {
     "cross-env": "^5.2.1",
