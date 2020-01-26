@@ -67,6 +67,7 @@ See more utils in description below
 #### Data manipulation
 
 - [debounce](https://gherciu.github.io/sagittarius/docs/doc-api-sagittarius-debounce): Creates a debounced function that delays invoking `func` until after `wait` milliseconds have elapsed since the last time the debounced function was invoked.
+- [set](https://gherciu.github.io/sagittarius/docs/doc-api-sagittarius-set): Sets the value at path of provided argument. If a portion of path doesn't exist, it's created. Return true or false if value is set with success.
 
 ## Contributing
 

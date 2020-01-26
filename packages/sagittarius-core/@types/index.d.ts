@@ -7,6 +7,7 @@ import { TDebounce } from 'sagittarius-debounce'
 import { TToPath } from 'sagittarius-to-path'
 import { THas } from 'sagittarius-has'
 import { TGet } from 'sagittarius-get'
+import { TSet } from 'sagittarius-set'
 
 export interface Saggitarius {
   random: TRandom
@@ -18,6 +19,7 @@ export interface Saggitarius {
   toPath: TToPath
   has: THas
   get: TGet
+  set: TSet
 }
 
 export const random: TRandom
@@ -29,6 +31,7 @@ export const uniq: TUniq
 export const toPath: TToPath
 export const has: THas
 export const get: TGet
+export const set: TSet
 
 declare const sagittarius: Saggitarius
 
