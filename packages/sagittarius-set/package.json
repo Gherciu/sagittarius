@@ -1,7 +1,7 @@
 {
   "name": "sagittarius-set",
   "description": "Sets the value at path of provided argument. If a portion of path doesn't exist, it's created. Return true or false if value is set with success.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "author": {
     "name": "Gherciu Gheorghe",
