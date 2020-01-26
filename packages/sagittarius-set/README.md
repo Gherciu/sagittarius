@@ -20,16 +20,13 @@
 
 ```js
 const set = require('sagittarius-set')
-console.log(set({ a: { b: 21 } }, 'a.b')) // 21
-console.log(set({ a: { b: [21] } }, 'a.b[0]')) // 21
-console.log(set([21, 'twenty one'], '[1]')) // 'twenty one'
+const obj = { a: 21, b: {} }
 
-console.log(set(21, 'toString')) // return toString function from provided number
-console.log(set(' twenty one ', 'trim')) // return trim function from provided string
+console.log(set(obj, 'a', 'twenty one')) // true
+console.log(obj.a) // 'twenty one'
 
-console.log(set({ a: { b: 21 } }, 'a.c')) // undefined
-// or it can return a default value if do not find anything
-console.log(set({ a: 21 }, 'a.b', 'twenty one')) // 'twenty one'
+console.log(set(obj, 'b.a.b', 21)) // true
+console.log(obj.b.a.b) // 21
 ```
 
 Or use via cdn:
@@ -38,16 +35,13 @@ Or use via cdn:
 <!--index.html-->
 <script src="https://cdn.jsdelivr.net/npm/sagittarius-set@latest/build/index.js"></script>
 <script>
-  console.log(sagittariusSet({ a: { b: 21 } }, 'a.b')) // 21
-  console.log(sagittariusSet({ a: { b: [21] } }, 'a.b[0]')) // 21
-  console.log(sagittariusSet([21, 'twenty one'], '[1]')) // 'twenty one'
+  const obj = { a: 21, b: {} }
 
-  console.log(sagittariusSet(21, 'toString')) // return toString function from provided number
-  console.log(sagittariusSet(' twenty one ', 'trim')) // return trim function from provided string
+  console.log(sagittariusSet(obj, 'a', 'twenty one')) // true
+  console.log(obj.a) // 'twenty one'
 
-  console.log(sagittariusSet({ a: { b: 21 } }, 'a.c')) // undefined
-  // or it can return a default value if do not find anything
-  console.log(sagittariusSet({ a: 21 }, 'a.b', 'twenty one')) // 'twenty one'
+  console.log(sagittariusSet(obj, 'b.a.b', 21)) // true
+  console.log(obj.b.a.b) // 21
 </script>
 ```
 

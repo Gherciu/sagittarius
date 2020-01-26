@@ -8,7 +8,11 @@ module.exports = {
       'doc-api-sagittarius-is-empty',
       'doc-api-sagittarius-to-number',
       'doc-api-sagittarius-unique-id',
-      'doc-api-sagittarius-uniq'
+      'doc-api-sagittarius-uniq',
+      'doc-api-sagittarius-to-path',
+      'doc-api-sagittarius-has',
+      'doc-api-sagittarius-get',
+      'doc-api-sagittarius-set'
     ],
   },
 };
