@@ -52,6 +52,7 @@ See more utils in description below
 #### Data validation
 
 - [isEmpty](https://gherciu.github.io/sagittarius/docs/doc-api-sagittarius-is-empty): Check if provided argument is empty
+- [has](https://gherciu.github.io/sagittarius/docs/doc-api-sagittarius-has): Checks if path is a direct property of an object or array.
 
 #### Data transformation
 
