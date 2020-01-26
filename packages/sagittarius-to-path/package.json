@@ -1,7 +1,7 @@
 {
   "name": "sagittarius-to-path",
   "description": "Transform provided argument to a property path array.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "author": {
     "name": "Gherciu Gheorghe",
@@ -29,7 +29,7 @@
     "watch": "cross-env NODE_ENV=development webpack -w"
   },
   "dependencies": {
-    "sagittarius-to-number": "^1.0.7"
+    "sagittarius-to-number": "^1.0.8"
   },
   "devDependencies": {
     "cross-env": "^5.2.1",
