@@ -1,9 +1,21 @@
 import has from '../index'
 
 describe('has', () => {
-  it('should return false if provided arg is not an object or array', () => {
-    expect(has()).toBeFalsy()
-    expect(has(undefined)).toBeFalsy()
+  it('should return false if no path is provided', () => {
+    expect(has([21])).toBeFalsy()
+  })
+
+  it('should return corect boolean value if is provided native objects like Number, RegEx etc.', () => {
+    expect(has([21], '[0].toString')).toBeTruthy()
+    expect(has([0], '[0].toString')).toBeTruthy()
+    expect(has([''], '[0].trim')).toBeTruthy()
+    expect(has([/^21/], '[0].test')).toBeTruthy()
+    expect(has(0, 'toString')).toBeTruthy()
+    expect(has(/^21/, 'test')).toBeTruthy()
+    expect(has('', 'trim')).toBeTruthy()
+    expect(has(0, 'test')).toBeFalsy()
+    expect(has(/^21/, 'a')).toBeFalsy()
+    expect(has('', 'b')).toBeFalsy()
   })
 
   it('should return false if path is not a direct property of an object or array', () => {

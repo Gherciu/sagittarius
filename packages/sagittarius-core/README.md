@@ -52,7 +52,7 @@ See more utils in description below
 #### Data validation
 
 - [isEmpty](https://gherciu.github.io/sagittarius/docs/doc-api-sagittarius-is-empty): Check if provided argument is empty
-- [has](https://gherciu.github.io/sagittarius/docs/doc-api-sagittarius-has): Checks if path is a direct property of an object or array.
+- [has](https://gherciu.github.io/sagittarius/docs/doc-api-sagittarius-has): Checks if path is a direct property of provided argument.
 
 #### Data transformation
 
@@ -62,6 +62,7 @@ See more utils in description below
 #### Data sorting
 
 - [uniq](https://gherciu.github.io/sagittarius/docs/doc-api-sagittarius-uniq): Filter and return uniq values from an array
+- [get](https://gherciu.github.io/sagittarius/docs/doc-api-sagittarius-get): Gets the value at path of provided argument. If the resolved value is undefined, the defaultValue is returned in its place.
 
 #### Data manipulation
 

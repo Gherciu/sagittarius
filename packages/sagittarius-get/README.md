@@ -1,8 +1,8 @@
 <div align="center">
   <img width="200" height="200"
     src="https://raw.githubusercontent.com/Gherciu/sagittarius/master/logo.png">
-  <h1>sagittarius-has</h1>
-  <p>Checks if path is a direct property of provided argument. Part of <a href="https://github.com/Gherciu/sagittarius">sagittarius</a> a set of javascript most used utils.</p>
+  <h1>sagittarius-get</h1>
+  <p>Gets the value at path of provided argument. If the resolved value is undefined, the defaultValue is returned in its place. Part of <a href="https://github.com/Gherciu/sagittarius">sagittarius</a> a set of javascript most used utils.</p>
   <p>
     <a href="https://gherciu.github.io/sagittarius/">Site</a>
     | <a href="https://gherciu.github.io/sagittarius/docs/doc-introduction">Getting Started</a>
@@ -16,36 +16,38 @@
 
 ## Getting started.
 
-- It can be used directly from `sagittarius-core` package or installed separately via npm runing: `npm i sagittarius-has`
+- It can be used directly from `sagittarius-core` package or installed separately via npm runing: `npm i sagittarius-get`
 
 ```js
-const has = require('sagittarius-has')
-console.log(has({ a: { b: 21 } }, 'a.b')) // true
-console.log(has({ a: { b: [21] } }, 'a.b[0]')) // true
-console.log(has([21, 'twenty one'], '[1]')) // true
-console.log(has([{ a: [21] }, 21], '[0].a[0]')) // true
+const get = require('sagittarius-get')
+console.log(get({ a: { b: 21 } }, 'a.b')) // 21
+console.log(get({ a: { b: [21] } }, 'a.b[0]')) // 21
+console.log(get([21, 'twenty one'], '[1]')) // 'twenty one'
 
-console.log(has(21, 'toString')) // true
-console.log(has(' twenty one ', 'trim')) // true
+console.log(get(21, 'toString')) // return toString function from provided number
+console.log(get(' twenty one ', 'trim')) // return trim function from provided string
 
-console.log(has({ a: { c: 21 } }, 'a.b')) // false
+console.log(get({ a: { b: 21 } }, 'a.c')) // undefined
+// or it can return a default value if do not find anything
+console.log(get({ a: 21 }, 'a.b', 'twenty one')) // 'twenty one'
 ```
 
 Or use via cdn:
 
 ```html
 <!--index.html-->
-<script src="https://cdn.jsdelivr.net/npm/sagittarius-has@latest/build/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sagittarius-get@latest/build/index.js"></script>
 <script>
-  console.log(sagittariusHas({ a: { b: 21 } }, 'a.b')) // true
-  console.log(sagittariusHas({ a: { b: [21] } }, 'a.b[0]')) // true
-  console.log(sagittariusHas([21, 'twenty one'], '[1]')) // true
-  console.log(sagittariusHas([{ a: [21] }, 21], '[0].a[0]')) // true
+  console.log(sagittariusGet({ a: { b: 21 } }, 'a.b')) // 21
+  console.log(sagittariusGet({ a: { b: [21] } }, 'a.b[0]')) // 21
+  console.log(sagittariusGet([21, 'twenty one'], '[1]')) // 'twenty one'
 
-  console.log(sagittariusHas(21, 'toString')) // true
-  console.log(sagittariusHas(' twenty one ', 'trim')) // true
+  console.log(sagittariusGet(21, 'toString')) // return toString function from provided number
+  console.log(sagittariusGet(' twenty one ', 'trim')) // return trim function from provided string
 
-  console.log(sagittariusHas({ a: { c: 21 } }, 'a.b')) // false
+  console.log(sagittariusGet({ a: { b: 21 } }, 'a.c')) // undefined
+  // or it can return a default value if do not find anything
+  console.log(sagittariusGet({ a: 21 }, 'a.b', 'twenty one')) // 'twenty one'
 </script>
 ```
 

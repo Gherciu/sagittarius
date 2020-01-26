@@ -6,6 +6,7 @@ import debounce from 'sagittarius-debounce'
 import uniq from 'sagittarius-uniq'
 import toPath from 'sagittarius-to-path'
 import has from 'sagittarius-has'
+import get from 'sagittarius-get'
 import { Saggitarius } from '../@types'
 
 const sagittarius: Saggitarius = {
@@ -17,7 +18,8 @@ const sagittarius: Saggitarius = {
   uniq,
   toPath,
   has,
+  get,
 }
 
-export { random, isEmpty, uniqueId, toNumber, debounce, uniq, toPath, has }
+export { random, isEmpty, uniqueId, toNumber, debounce, uniq, toPath, has, get }
 export default sagittarius

@@ -6,6 +6,7 @@ import { TToNumber } from 'sagittarius-to-number'
 import { TDebounce } from 'sagittarius-debounce'
 import { TToPath } from 'sagittarius-to-path'
 import { THas } from 'sagittarius-has'
+import { TGet } from 'sagittarius-get'
 
 export interface Saggitarius {
   random: TRandom
@@ -16,6 +17,7 @@ export interface Saggitarius {
   uniq: TUniq
   toPath: TToPath
   has: THas
+  get: TGet
 }
 
 export const random: TRandom
@@ -26,6 +28,7 @@ export const debounce: TDebounce
 export const uniq: TUniq
 export const toPath: TToPath
 export const has: THas
+export const get: TGet
 
 declare const sagittarius: Saggitarius
 

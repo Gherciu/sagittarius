@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-export type THas = (arg?: any[] | object, path?: string) => boolean
+export type THas = (arg?: any[] | object | any, path?: string) => boolean
 
 declare const has: THas
 
