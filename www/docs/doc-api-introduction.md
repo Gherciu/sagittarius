@@ -23,4 +23,4 @@ sidebar_label: API Introduction
 
 #### Data manipulation
 
-- [debounce](https://gherciu.github.io/sagittarius/docs/doc-api-sagittarius-debounce): Creates a debounced function that delays invoking `func` until after `wait` milliseconds have elapsed since the last time the debounced function was invoked.
+- [debounce](https://gherciu.github.io/sagittarius/docs/doc-api-sagittarius-debounce): Creates a debounced function that delays invoking `func` until after `wait` milliseconds have elapsed since the last time the debounced function was invoked
