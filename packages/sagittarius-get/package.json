@@ -12,7 +12,7 @@
     "utils",
     "helpers",
     "sagittarius",
-    "random"
+    "get"
   ],
   "homepage": "https://gherciu.github.io/sagittarius/",
   "repository": {

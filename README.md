@@ -63,6 +63,7 @@ See more utils in description below
 
 - [uniq](https://gherciu.github.io/sagittarius/docs/doc-api-sagittarius-uniq): Filter and return uniq values from an array
 - [get](https://gherciu.github.io/sagittarius/docs/doc-api-sagittarius-get): Gets the value at path of provided argument. If the resolved value is undefined, the defaultValue is returned in its place.
+- [difference](https://gherciu.github.io/sagittarius/docs/doc-api-sagittarius-difference): Compare 2 arguments and return the difference. The order and references of result values are determined by the first argument.
 
 #### Data manipulation
 

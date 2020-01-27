@@ -8,6 +8,7 @@ import toPath from 'sagittarius-to-path'
 import has from 'sagittarius-has'
 import get from 'sagittarius-get'
 import set from 'sagittarius-set'
+import difference from 'sagittarius-difference'
 import { Saggitarius } from '../@types'
 
 const sagittarius: Saggitarius = {
@@ -21,6 +22,7 @@ const sagittarius: Saggitarius = {
   has,
   get,
   set,
+  difference,
 }
 
 export {
@@ -34,5 +36,6 @@ export {
   has,
   get,
   set,
+  difference,
 }
 export default sagittarius

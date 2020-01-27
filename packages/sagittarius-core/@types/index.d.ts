@@ -8,6 +8,7 @@ import { TToPath } from 'sagittarius-to-path'
 import { THas } from 'sagittarius-has'
 import { TGet } from 'sagittarius-get'
 import { TSet } from 'sagittarius-set'
+import { TDifference } from 'sagittarius-difference'
 
 export interface Saggitarius {
   random: TRandom
@@ -20,6 +21,7 @@ export interface Saggitarius {
   has: THas
   get: TGet
   set: TSet
+  difference: TDifference
 }
 
 export const random: TRandom
@@ -32,6 +34,7 @@ export const toPath: TToPath
 export const has: THas
 export const get: TGet
 export const set: TSet
+export const difference: TDifference
 
 declare const sagittarius: Saggitarius
 
