@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[15],{143:function(a){a.exports=JSON.parse('{"allTagsPath":"/sagittarius/blog/tags","slug":"v-1-3-0","name":"v1.3.0","count":1,"permalink":"/sagittarius/blog/tags/v-1-3-0"}')}}]);
