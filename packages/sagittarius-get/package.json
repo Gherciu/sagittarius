@@ -1,7 +1,7 @@
 {
   "name": "sagittarius-get",
   "description": "Gets the value at path of provided argument. If the resolved value is undefined, the defaultValue is returned in its place.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "author": {
     "name": "Gherciu Gheorghe",
@@ -29,7 +29,7 @@
     "watch": "cross-env NODE_ENV=development webpack -w"
   },
   "dependencies": {
-    "sagittarius-to-path": "^1.0.1"
+    "sagittarius-to-path": "^1.0.2"
   },
   "devDependencies": {
     "cross-env": "^5.2.1",

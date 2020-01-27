@@ -1,7 +1,7 @@
 {
   "name": "sagittarius-difference",
   "description": "Compare 2 arguments and return the difference. The order and references of result values are determined by the first argument.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "author": {
     "name": "Gherciu Gheorghe",
