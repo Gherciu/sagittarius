@@ -13,7 +13,8 @@ module.exports = {
       'doc-api-sagittarius-has',
       'doc-api-sagittarius-get',
       'doc-api-sagittarius-set',
-      'doc-api-sagittarius-difference'
+      'doc-api-sagittarius-difference',
+      'doc-api-sagittarius-range'
     ],
   },
 };
