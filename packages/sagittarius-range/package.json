@@ -1,7 +1,7 @@
 {
-  "name": "sagittarius-core",
-  "description": "A set of javascript most used utils.",
-  "version": "1.3.2",
+  "name": "sagittarius-range",
+  "description": "Creates an array of numbers (positive and/or negative) progressing from start up to, but not including, end. A step of -1 is used if a negative start is specified without an end or step. If end is not specified, it's set to start with start then set to 0.",
+  "version": "1.0.0",
   "license": "MIT",
   "author": {
     "name": "Gherciu Gheorghe",
@@ -11,7 +11,8 @@
   "keywords": [
     "utils",
     "helpers",
-    "sagittarius"
+    "sagittarius",
+    "random"
   ],
   "homepage": "https://gherciu.github.io/sagittarius/",
   "repository": {
@@ -34,20 +35,6 @@
     "typescript": "^3.6.3",
     "webpack": "^4.40.2",
     "webpack-cli": "^3.3.8"
-  },
-  "dependencies": {
-    "sagittarius-debounce": "^1.0.7",
-    "sagittarius-difference": "^1.0.1",
-    "sagittarius-get": "^1.0.2",
-    "sagittarius-has": "^1.0.2",
-    "sagittarius-is-empty": "^1.1.7",
-    "sagittarius-random": "^1.1.7",
-    "sagittarius-set": "^1.0.3",
-    "sagittarius-to-number": "^1.0.8",
-    "sagittarius-to-path": "^1.0.2",
-    "sagittarius-uniq": "^1.0.3",
-    "sagittarius-unique-id": "^1.1.7",
-    "sagittarius-range": "^1.0.0"
   },
   "gitHead": "e5f694604ed9977f614ecdb25eea64de748a7705"
 }

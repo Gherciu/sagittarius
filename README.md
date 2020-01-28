@@ -48,6 +48,7 @@ See more utils in description below
 
 - [random](https://gherciu.github.io/sagittarius/docs/doc-api-sagittarius-random): Random number generation from range
 - [uniqueId](https://gherciu.github.io/sagittarius/docs/doc-api-sagittarius-unique-id): Generates a unique ID. If `prefix` is given, the ID is appended to it.
+- [range](https://gherciu.github.io/sagittarius/docs/doc-api-sagittarius-range): Creates an array of numbers (positive and/or negative) progressing from start up to, but not including, end. A step of -1 is used if a negative start is specified without an end or step. If end is not specified, it's set to start with start then set to 0.
 
 #### Data validation
 

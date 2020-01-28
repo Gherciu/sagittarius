@@ -9,6 +9,7 @@ import { THas } from 'sagittarius-has'
 import { TGet } from 'sagittarius-get'
 import { TSet } from 'sagittarius-set'
 import { TDifference } from 'sagittarius-difference'
+import { TRange } from 'sagittarius-range'
 
 export interface Saggitarius {
   random: TRandom
@@ -22,6 +23,7 @@ export interface Saggitarius {
   get: TGet
   set: TSet
   difference: TDifference
+  range: TRange
 }
 
 export const random: TRandom
@@ -35,6 +37,7 @@ export const has: THas
 export const get: TGet
 export const set: TSet
 export const difference: TDifference
+export const range: TRange
 
 declare const sagittarius: Saggitarius
 

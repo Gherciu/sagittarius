@@ -9,6 +9,7 @@ import has from 'sagittarius-has'
 import get from 'sagittarius-get'
 import set from 'sagittarius-set'
 import difference from 'sagittarius-difference'
+import range from 'sagittarius-range'
 import { Saggitarius } from '../@types'
 
 const sagittarius: Saggitarius = {
@@ -23,6 +24,7 @@ const sagittarius: Saggitarius = {
   get,
   set,
   difference,
+  range,
 }
 
 export {
@@ -37,5 +39,6 @@ export {
   get,
   set,
   difference,
+  range,
 }
 export default sagittarius
